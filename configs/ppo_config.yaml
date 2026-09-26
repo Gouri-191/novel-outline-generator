@@ -1,0 +1,19 @@
+ppo:
+  learning_rate: 1.41e-5
+  batch_size: 8
+  mini_batch_size: 2
+  gradient_accumulation_steps: 2
+  ppo_epochs: 4
+  init_kl_coef: 0.05
+  adap_kl_ctrl: true
+  target: 6.0
+  horizon: 10000
+  gamma: 1.0
+  lam: 0.95
+  cliprange: 0.2
+  cliprange_value: 0.2
+  vf_coef: 0.1
+
+reward_model:
+  path: "./reward_model_checkpoint"
+  max_length: 1024

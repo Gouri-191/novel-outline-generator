@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use NovelCraft in your research or project, please cite it using these metadata."
+title: "NovelCraft: Distributed AI Novel Outline Generator & Tactile Story Drafting Studio"
+version: 1.0.0
+date-released: 2026-09-27
+license: AGPL-3.0
+repository-code: "https://github.com/your-username/novel-outline-generator"
+keywords:
+  - "novel outline generator"
+  - "generative ai"
+  - "story drafting"
+  - "ollama"
+  - "qwen2.5"
+  - "qlora"
+  - "rlhf"
+  - "tactile ui"
+  - "creative writing assistant"
+  - "narrative intelligence"
+abstract: "NovelCraft is an open-source, full-stack AI storytelling engine that synthesizes premise inputs into structured, chapter-by-chapter novel outlines with dramatic act pacing (Three-Act / Hero's Journey) using distributed LLM chaining and QLoRA fine-tuning."
